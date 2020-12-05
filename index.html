@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Patterns: Lab 1</title>
+</head>
+<body>
+  <header></header>
+  <div class="container">
+    <div class="courses">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 100px">Kursnummer</th>
+            <th>Titel</th>
+            <th style="width: 80px;">Kurslängd (veckor)</th>
+          </tr>
+        </thead>
+        <tbody class="course-list"></tbody>
+      </table>
+    </div>
+    <div class="marketing-area">
+      <div class="teachers-display"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./controllers/teacherlist-controller.js"></script>
+  <script type="module" src="./controllers/courselist-controller.js"></script>
+</body>
+</html>
